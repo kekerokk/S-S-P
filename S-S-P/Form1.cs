@@ -9,10 +9,17 @@ namespace S_S_P
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            timer1.Start();
+            //timer1.Start();
+            Form form = Application.OpenForms[0];
+            form.Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
